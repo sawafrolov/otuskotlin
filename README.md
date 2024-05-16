@@ -1,1 +1,1 @@
-Домашние задания курса Kotlin Backend Developer Professional от OTUS
+Изучение Kotlin на курсе Kotlin Backend Developer Professional от OTUS
