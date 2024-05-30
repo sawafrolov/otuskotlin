@@ -1,10 +1,17 @@
 plugins {
     kotlin("jvm") version "1.9.24"
+    `kotlin-dsl`
 }
 
 repositories {
     mavenCentral()
 }
 
-dependencies {
+gradlePlugin {
+    plugins {
+        register("build-jvm") {
+            id = "build-jvm"
+            implementationClass = "com.github.sawafrolov.otuskotlin.plugins.BuildPluginJvm"
+        }
+    }
 }
