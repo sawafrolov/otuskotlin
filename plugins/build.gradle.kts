@@ -13,5 +13,9 @@ gradlePlugin {
             id = "build-jvm"
             implementationClass = "com.github.sawafrolov.otuskotlin.plugins.BuildPluginJvm"
         }
+        register("build-multiplatform") {
+            id = "build-multiplatform"
+            implementationClass = "com.github.sawafrolov.otuskotlin.plugins.BuildPluginMultiplatform"
+        }
     }
 }
