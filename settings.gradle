@@ -1,6 +1,8 @@
 rootProject.name = "otuskotlin"
 
-include("app")
+includeBuild("app")
+includeBuild("plugins")
+includeBuild("project")
 
 enableFeaturePreview("VERSION_CATALOGS")
 
@@ -11,4 +13,3 @@ dependencyResolutionManagement {
         }
     }
 }
-
