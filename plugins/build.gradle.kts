@@ -1,5 +1,5 @@
 plugins {
-    alias(kotlin.jvm)
+    alias(libs.plugins.kotlin.jvm)
     `kotlin-dsl`
 }
 
