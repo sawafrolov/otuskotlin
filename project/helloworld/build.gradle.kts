@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.9.24"
+    id("build-jvm")
 }
 
 repositories {
@@ -7,4 +7,5 @@ repositories {
 }
 
 dependencies {
+    testImplementation(kotlin("test-junit"))
 }
