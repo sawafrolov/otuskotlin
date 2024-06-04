@@ -1,14 +1,5 @@
 rootProject.name = "otuskotlin"
 
-include("app")
-
-enableFeaturePreview("VERSION_CATALOGS")
-
-dependencyResolutionManagement {
-    versionCatalogs {
-        create("libs") {
-            file("../gradle/libs.versions.toml")
-        }
-    }
-}
-
+includeBuild("app")
+includeBuild("plugins")
+includeBuild("project")
