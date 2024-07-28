@@ -1,5 +1,0 @@
-rootProject.name = "otuskotlin"
-
-includeBuild("app")
-includeBuild("plugins")
-includeBuild("project")
